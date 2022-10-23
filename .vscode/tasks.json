@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "msbuild",
+            "args": [
+                "/t:Build"
+            ],
+            "group": "build",
+            "options": {
+                "cwd": "${workspaceFolder}/Web/SEHealth.MySELife.Nursing.API"
+            },
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
