@@ -15,7 +15,6 @@ RUN npm --version
 RUN curl -o- -L https://dot.net/v1/dotnet-install.sh | bash -s -- -c Current
 RUN ln -s /root/.dotnet/dotnet /usr/bin/dotnet
 # Install Latest Git version
-RUN apt-get install -y software-properties-common && add-apt-repository ppa:git-core/ppa
 RUN apt-get update && apt-get install -y git
 RUN apt-get install -y vim
 RUN git config --global core.editor "vim"
