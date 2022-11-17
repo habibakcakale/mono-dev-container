@@ -7,3 +7,4 @@ It contains
 
 ## How to
 Drop .devcontainer and .vscode folder into your project. Re-Open project in container and run the app with F5
+You might need to adjust `"cwd": "${workspaceRoot}"` to point your project root folder.
