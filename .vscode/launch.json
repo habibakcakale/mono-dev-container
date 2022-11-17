@@ -10,7 +10,7 @@
             "preLaunchTask": "build",
             "name": "Launch",
             "program": "/usr/lib/mono/4.5/xsp4.exe",
-            "cwd": "${workspaceRoot}/Web/SEHealth.MySELife.Nursing.API",
+            "cwd": "${workspaceRoot}",
             "args": [
                 "--port=62637",
                 "--nonstop",
